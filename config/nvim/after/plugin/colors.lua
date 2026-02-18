@@ -5,16 +5,4 @@ require("tokyonight").setup({
   end
 })
 
-
-require("fluoromachine").setup {
-  glow = true,
-  theme = 'fluoromachine',
-  colors = function(_, d)
-    return {
-      comment = '#de004e';
-    }
-  end, 
-}
-
-vim.g.thematrix_transparent_mode = 1
 vim.cmd.colorscheme('tokyonight')

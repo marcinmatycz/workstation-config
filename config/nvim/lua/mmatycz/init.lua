@@ -1,5 +1,5 @@
 require("mmatycz.remap")
+require("mmatycz.lsp")
 
-local set = vim.opt
-set.shiftwidth = 2
-set.relativenumber = true
+vim.opt.shiftwidth = 2
+vim.opt.relativenumber = true
